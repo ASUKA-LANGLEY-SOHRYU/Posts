@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/recommendationsFragment"
+        android:name="com.example.posts.presenter.ui.recommendations.RecommendationsFragment"
+        android:label="fragment_recommendations"
+        tools:layout="@layout/fragment_recommendations" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.posts.presenter.ui.auth.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.posts.presenter.ui.auth.RegistrationFragment"
+        android:label="RegistrationFragment" />
+    <fragment
+        android:id="@+id/generateFragment"
+        android:name="com.example.posts.presenter.ui.generate.GenerateFragment"
+        android:label="fragment_generate"
+        tools:layout="@layout/fragment_generate" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.posts.presenter.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

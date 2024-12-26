@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomBottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="itemIconSize">24dp</item>
+        <item name="itemTextAppearance">@style/CustomBottomNavTextAppearance</item>
+        <item name="itemHorizontalTranslationEnabled">false</item>
+        <item name="labelVisibilityMode">labeled</item> <!-- Показать текст под иконками -->
+    </style>
+
+    <style name="CustomBottomNavTextAppearance">
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>
